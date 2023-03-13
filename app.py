@@ -24,5 +24,10 @@ def uppercase():
     return message
 
 
+@app.route("/hello")
+def hello():
+    return "hello users"
+
+    
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
